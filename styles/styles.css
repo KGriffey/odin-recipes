@@ -1,4 +1,81 @@
+/*Format the overall body of the webpages*/
 body {
-    color: red;
-    background-color: black;
+    color: #cc9900;
+    background-color: #663300;
+
+    font-family: Palatino, serif;
+    text-align: center;
+
+    width: 960px;
+    margin: auto;
 }
+
+/*Format non-standard fonts and text sizes*/
+.title,
+.heading,
+a {
+    font-family: "Times New Roman", serif;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.heading {
+    font-size: 24px;
+}
+
+/*Format links*/
+a {
+    color: #cc9900;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Format images*/
+img {
+    width: auto;
+    height: 350px;
+}
+
+/*Format the main page list specifics*/
+#recipe-list ul {
+    list-style-type: none;
+}
+
+#recipe-list li{
+    font-size: 24px;
+    text-align: center;
+}
+
+/*Format general lists*/
+.list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.list-heading {
+    font-size: 20px;
+}
+
+ul,
+ol {
+    display: inline-block;
+}
+
+ul.list-main,
+ol.list-main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    text-align: left;
+}
+
+
+
+
